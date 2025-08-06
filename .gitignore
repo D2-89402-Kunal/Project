@@ -1,1 +1,14 @@
-/.metadata/
+# Ignore Eclipse project settings
+.metadata/
+.project
+.classpath
+.settings/
+.factorypath
+
+# Ignore build output
+bin/
+target/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db

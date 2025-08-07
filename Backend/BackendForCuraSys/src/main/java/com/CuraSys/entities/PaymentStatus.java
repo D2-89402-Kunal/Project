@@ -1,5 +1,6 @@
 package com.CuraSys.entities;
 
-public class PaymentStatus {
-
+public enum PaymentStatus {
+	FAILED,COMPLETED,PENDING
 }
+

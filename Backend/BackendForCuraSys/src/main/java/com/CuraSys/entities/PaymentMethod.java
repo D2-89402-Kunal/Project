@@ -1,5 +1,5 @@
 package com.CuraSys.entities;
 
-public class PaymentMethod {
-
+public enum PaymentMethod {
+	DEBIT,CREDIT,UPI
 }

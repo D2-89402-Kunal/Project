@@ -1,5 +1,5 @@
 package com.CuraSys.entities;
 
-public class Role {
-
+public enum Role {
+	PATIENT, ADMIN, DOCTOR;
 }

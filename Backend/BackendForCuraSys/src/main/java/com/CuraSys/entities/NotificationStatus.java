@@ -1,5 +1,5 @@
 package com.CuraSys.entities;
 
-public class NotificationStatus {
-
+public enum NotificationStatus {
+	PENDING,DELIVERED
 }

@@ -22,7 +22,7 @@ public class Doctor {
 	private Long doctorId;
 	
     @Column(name= "specialization" , nullable =false , length = 100)
-	private String speacialization;
+	private String specialization;
 	
     @Column(name = "qualification" , nullable = false , length =100)
 	private String qualification;

@@ -1,5 +1,6 @@
 package com.CuraSys.entities;
 
-public class AppointmentStatus {
-
+public enum AppointmentStatus {
+	 CANCELLED, SCHEDULED, COMPLETED, PENDING
 }
+

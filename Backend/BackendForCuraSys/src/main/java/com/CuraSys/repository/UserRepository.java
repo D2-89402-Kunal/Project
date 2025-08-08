@@ -19,7 +19,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 	// In UserRepository.java (Assuming you're using Spring Data JPA)
 
 	public List<User> findByRole(Role role);
-
+    //query for getting total count where role is patient   
 	@Query("SELECT COUNT(u) FROM User u WHERE u.role = 'PATIENT'")
     long getPatientCount();
 }

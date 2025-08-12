@@ -1,7 +1,5 @@
 package com.CuraSys.repository;
 
-
-
 import java.util.List;
 import java.util.Optional;
 
